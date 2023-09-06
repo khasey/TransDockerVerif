@@ -1,0 +1,73 @@
+.all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+    gap: 10px;
+    position: fixed;
+}
+.play {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 40px;
+    position: relative;
+    gap: 10px;
+    /* border: inset 2px rgb(0, 217, 255); */
+  }
+
+.buttonContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+  height: 90%;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.left{
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.imageRight{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 40px;/* ou "contain" si vous voulez voir toute l'image */
+}
+.imageLeft{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 40px;
+}
+
+.imageLeft:hover{
+  border: solid;
+}
+
+
+  
