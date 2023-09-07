@@ -45,7 +45,11 @@ const PlayButton: React.FC = () => {
               <div className={styles.photo}>
                 <div className={styles.left}>
                   <img src="./images/1r.png" className={styles.imageLeft} onClick={() => selectGameMode('normal')} />
-                  <img src="./images/boost.png" className={styles.imageLeft} onClick={() => selectGameMode('boost')} />
+                  <text className={styles.normal}>NORMAL</text>
+                  </div>
+                 <div className={styles.right}>
+                  <img src="./images/boost.png" className={styles.imageRight} onClick={() => selectGameMode('boost')} />
+                  <text className={styles.boost}>BOOST</text>
                 </div>
               </div>
               {gameMode && <GlowButton onClick={handleClick} />}
